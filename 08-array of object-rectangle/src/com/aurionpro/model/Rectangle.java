@@ -5,22 +5,6 @@ public class Rectangle {
 	private double width;
 	
 	private ColorType color;
-	
-		private String validateColour(String  value) {
-			   
-			  
-			   if(value.toLowerCase().equals("blue"))
-			    {return "Blue"  ;
-			    }
-			  else if(value.toLowerCase().equals("green")) {
-			   return "Green";
-			  }
-			  
-			  else 
-			   {
-			   return "Red";
-			   }
-}	
 
 	public ColorType getColor() {
 		return color;
