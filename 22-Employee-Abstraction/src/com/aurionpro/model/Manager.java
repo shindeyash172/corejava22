@@ -15,7 +15,7 @@ public class Manager extends Employee {
 	}
 
 	public Manager() {
-		super(0, "", 0); // Call the superclass constructor with dummy values
+		super(0, "", 0); 
 	}
 
 	@Override
